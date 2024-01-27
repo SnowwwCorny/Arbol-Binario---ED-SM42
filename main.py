@@ -1,11 +1,11 @@
 from arbol import Arbol
 
 arbol = Arbol("Ricardo") #Nodo raiz
-arbol.agregar("Jack") #Agregar datos
-arbol.agregar("Lion")
-arbol.agregar("Adia")
-arbol.agregar("JassR")
-arbol.agregar("Ero")
+arbol.agregar("Alex") #Agregar datos
+arbol.agregar("Zenia")
+arbol.agregar("Miguel")
+arbol.agregar("Regina")
+arbol.agregar("Mia")
 nombre = input("Ingresa un nombre: ") #Para agregar
 arbol.agregar(nombre)
 arbol.preorden()
